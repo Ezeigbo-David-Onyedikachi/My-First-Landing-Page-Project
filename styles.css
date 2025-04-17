@@ -148,10 +148,14 @@ p{
 .p1{
     margin-left: 8%;
 }
-.mp4-video{
-    width: 50vw;
-    height: 30vw;
-    margin-left: 25%;
+iframe{
+    width: 560px;
+    height: 315px;
+}
+.video{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 27%;
     margin-top: 3%;
 }
 .pricing{
