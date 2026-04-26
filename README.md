@@ -4,6 +4,7 @@ A professional, high-performance landing page built to showcase educational path
 This version includes custom JavaScript to enhance user experience and interactivity.
 
 ## Live Demo
+https://ezeigbo-david-onyedikachi.github.io/My-First-Landing-Page-Project/
 
 ## Project Overview
 This project serves as a functional prototype for an educational platform. It demonstrates 
@@ -18,15 +19,15 @@ a mastery of responsive layouts and DOM manipulation to create a seamless browsi
 ## Visual Walkthrough
 
 ### 1. Hero Section & Navigation
-![Hero Section Screenshot](path/to/hero-image.png)
+![Hero Section Screenshot](hero-section.png)
 *The first point of contact, featuring a clear Call-to-Action (CTA) and a responsive navigation bar.*
 
 ### 2. Course Catalog
-![Course Grid Screenshot](path/to/courses-image.png)
+![Course Grid Screenshot](path-course-and-pricing.png)
 *An organized layout showcasing ADSE and other career programs using CSS Flexbox/Grid.*
 
 ### 3. Mobile Experience
-![Mobile Menu Screenshot](path/to/mobile-image.png)
+![Mobile Menu Screenshot](mobile-responsiveness.png)
 *Demonstrating the JavaScript-powered sidebar menu for smaller screens.*
 
 ## Tech Stack
