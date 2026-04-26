@@ -19,15 +19,15 @@ a mastery of responsive layouts and DOM manipulation to create a seamless browsi
 ## Visual Walkthrough
 
 ### 1. Hero Section & Navigation
-![Hero Section Screenshot](hero-section.png)
+![Hero Section Screenshot](/medias/hero-section.png)
 *The first point of contact, featuring a clear Call-to-Action (CTA) and a responsive navigation bar.*
 
 ### 2. Course Catalog
-![Course Grid Screenshot](path-course-and-pricing.png)
+![Course Grid Screenshot](/medias/path-course-and-pricing.png)
 *An organized layout showcasing ADSE and other career programs using CSS Flexbox/Grid.*
 
 ### 3. Mobile Experience
-![Mobile Menu Screenshot](mobile-responsiveness.png)
+![Mobile Menu Screenshot](/medias/mobile-responsiveness.png)
 *Demonstrating the JavaScript-powered sidebar menu for smaller screens.*
 
 ## Tech Stack
