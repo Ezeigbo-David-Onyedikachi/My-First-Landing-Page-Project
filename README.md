@@ -28,6 +28,7 @@ a mastery of responsive layouts and DOM manipulation to create a seamless browsi
 
 ### 3. Mobile Experience
 ![Mobile Menu Screenshot](/medias/mobile-responsiveness.png)
+
 *Demonstrating the JavaScript-powered sidebar menu for smaller screens.*
 
 ## Tech Stack
