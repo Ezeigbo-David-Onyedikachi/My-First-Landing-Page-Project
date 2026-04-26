@@ -3,211 +3,382 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aptech-onitsha landing page</title>
+    <title>Aptech Computer Education — Onitsha | International IT Training</title>
+    <meta name="description" content="Aptech Computer Education Onitsha — World-class IT training in Programming, Cybersecurity, Networking, Web Development, and more. Enroll today and transform your future.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="logo">
-      <header id="header" class="img-header">
-          <div class="header">
-          <img id="header-img" src="/medias/aptech3.jpg" alt="Aptech Logo" class="img-logo">
-          <span>APTECH</span> <span class="span1">Computer Education</span>
-        </div>
-        <div class="nav-bar">
-          <nav id="nav-bar">
-            <a class="nav-link" href="#features">Features</a>
-            <a class="nav-link" href="#how_we_operate">How We Operate</a>
-            <a class="nav-link" href="#pricing">Pricing</a>
-            <a class="nav-link" href="#partners">Partners</a>
-          </nav>
-        </div>
-        </header>
-    </div>
-    <div class="body"> 
-        <main>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label for="email">International Computer School In Onitsha</label> <br> <br>
-            <input type="email" id="email" placeholder="example@yahoo.com" name="email" class="email" required> <br> <br>
-            <input type="submit" id="submit" value="CONTINUE" class="submit">
-          </form>
-        <section id="features" class="feature">
-          <div class="features">
-            <div class="prog">
-              <img src="/medias/programming-logo.jpeg" alt="programming-logo" class="programming-logo">
-            </div>
-            <div class="prog1">
-              <p>PROGRAMMING</p>
-              <ul>
-                <li>UI/UX</li>
-                <li>ASP.NET(C#.VB)</li>
-                <li>Python/Perl/Ruby and Rails</li>
-                <li>Java(Fx,EE,SE)</li>
-                <li>Object-Oriented Programming</li>
-                <li>Mobile App Development</li>
-                <li>Data Science</li>
-                <li>Artificial Intelligence and machine learning</li>
-                <li>Software Testing</li>
-                <li>Block Chain Programming</li>
-                <li>Node JS</li>
-                <li>Ajax</li>
-                <li>React Native</li>
-              </ul>
-            </div>
+
+    <!-- ======== NAVBAR ======== -->
+    <header id="header" class="navbar">
+      <div class="navbar__inner">
+        <a href="#" class="navbar__brand" id="header-img-link">
+          <img id="header-img" src="./medias/aptech3.jpg" alt="Aptech Logo" class="navbar__logo">
+          <span class="navbar__title">APTECH</span>
+          <span class="navbar__subtitle">Computer Education</span>
+        </a>
+        <button class="navbar__toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+          <span class="navbar__toggle-bar"></span>
+          <span class="navbar__toggle-bar"></span>
+          <span class="navbar__toggle-bar"></span>
+        </button>
+        <nav id="nav-bar" class="navbar__nav">
+          <a class="nav-link" href="#features">Programs</a>
+          <a class="nav-link" href="#how_we_operate">How It Works</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#partners">Partners</a>
+          <a class="nav-link nav-link--cta" href="#hero-form">Enroll Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ======== HERO SECTION ======== -->
+    <section id="hero" class="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__content">
+        <p class="hero__badge">🎓 International Computer School in Onitsha</p>
+        <h1 class="hero__title">Transform Your Future<br>with <span class="hero__highlight">Technology</span></h1>
+        <p class="hero__subtitle">
+          World-class IT education in Programming, Cybersecurity, Networking, and more.
+          Join thousands of graduates building successful tech careers globally.
+        </p>
+        <form id="form" class="hero__form" action="https://www.freecodecamp.com/email-submit">
+          <div class="hero__form-group" id="hero-form">
+            <input type="email" id="email" name="email" placeholder="Enter your email address" class="hero__input" required>
+            <button type="submit" id="submit" class="hero__btn">
+              Get Started <i class="fas fa-arrow-right"></i>
+            </button>
           </div>
-          <div class="features">
-            <div class="security">
-              <img src="/medias/security-icon.jpeg" alt="security-icon" class="security-icon">
-            </div>
-            <div class="security1">
-              <p>SECURITY</p>
-              <ul>
-                <li>Certified Ethical Hacking</li>
-                <li>Cyber Security</li>
-                <li>Cisco Security</li>
-              </ul>
-            </div>
+        </form>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <span class="hero__stat-number">25+</span>
+            <span class="hero__stat-label">Years of Excellence</span>
           </div>
-          <div class="features">
-            <div class="server">
-              <img src="/medias/server-icon.jpg" alt="server-icon" class="server-icon">
-            </div>
-            <div class="server1">
-              <p>SERVER ADMINISTRATION</p>
-              <ul>
-                <li>Microsoft Certified Solution Expert</li>
-                <li>Microsoft Certified Solution Associate</li>
-                <li>Linux (Redhat,Fedora,Ubuntu)</li>
-              </ul>
-            </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">50K+</span>
+            <span class="hero__stat-label">Graduates Worldwide</span>
           </div>
-          <div class="features">
-            <div class="web-dev">
-              <img src="/medias/web-dev-icon.jpeg" alt="web-dev-icon" class="web-dev-icon">
-            </div>
-            <div class="web-dev1">
-              <p>WEB DEVELOPMENT</p>
-              <ul>
-                <li>Web with Python</li>
-                <li>React with Node Js</li>
-                <li>Web with Python</li>
-              </ul>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-number">40+</span>
+            <span class="hero__stat-label">Countries</span>
           </div>
         </div>
-        <div class="features">
-          <div class="network">
-            <img src="/medias/networking-icon.jpeg" alt="networking-icon" class="networking-icon">
-          </div>
-          <div class="network1">
-            <p>NETWORKING</p>
-            <ul>
-              <li>Cloud Computing</li>
-              <li>Copatia + (N+, A+,S+)</li>
-              <li>Internet of Things (I.O.T)</li>
-              <li>Cisco Networking (CCNA, CCNP, CCIE)</li>
+      </div>
+    </section>
+
+    <!-- ======== FEATURES / PROGRAMS ======== -->
+    <section id="features" class="section features">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Our Programs</span>
+          <h2 class="section__title">Explore Our World-Class Courses</h2>
+          <p class="section__desc">Industry-relevant curriculum designed to give you the skills that employers demand.</p>
+        </div>
+        <div class="features__grid">
+
+          <!-- Programming -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/programming-logo.jpeg" alt="Programming" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Programming</h3>
+            <ul class="feature-card__list">
+              <li>UI/UX Design</li>
+              <li>ASP.NET (C#, VB)</li>
+              <li>Python / Perl / Ruby on Rails</li>
+              <li>Java (Fx, EE, SE)</li>
+              <li>Object-Oriented Programming</li>
+              <li>Mobile App Development</li>
+              <li>Data Science &amp; AI/ML</li>
+              <li>Blockchain Programming</li>
+              <li>Node.js &amp; React Native</li>
             </ul>
           </div>
-        </div>
-        <div class="features">
-          <div class="database">
-            <img src="/medias/database-icon.jpg" alt="database-icon" class="database-icon">
+
+          <!-- Security -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/security-icon.jpeg" alt="Security" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Cybersecurity</h3>
+            <ul class="feature-card__list">
+              <li>Certified Ethical Hacking</li>
+              <li>Cyber Security</li>
+              <li>Cisco Security</li>
+            </ul>
           </div>
-          <div class="database1">
-            <p>DATABASE</p>
-            <ul>
+
+          <!-- Server Admin -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/server-icon.jpg" alt="Server Administration" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Server Administration</h3>
+            <ul class="feature-card__list">
+              <li>Microsoft Certified Solutions Expert</li>
+              <li>Microsoft Certified Solutions Associate</li>
+              <li>Linux (RedHat, Fedora, Ubuntu)</li>
+            </ul>
+          </div>
+
+          <!-- Web Dev -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/web-dev-icon.jpeg" alt="Web Development" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Web Development</h3>
+            <ul class="feature-card__list">
+              <li>Web with Python</li>
+              <li>React with Node.js</li>
+              <li>Full-Stack Development</li>
+            </ul>
+          </div>
+
+          <!-- Networking -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/networking-icon.jpeg" alt="Networking" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Networking</h3>
+            <ul class="feature-card__list">
+              <li>Cloud Computing</li>
+              <li>CompTIA (N+, A+, S+)</li>
+              <li>Internet of Things (IoT)</li>
+              <li>Cisco (CCNA, CCNP, CCIE)</li>
+            </ul>
+          </div>
+
+          <!-- Database -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/database-icon.jpg" alt="Database" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Database</h3>
+            <ul class="feature-card__list">
               <li>Oracle Database</li>
               <li>MS SQL Server</li>
             </ul>
           </div>
-        </div>
-        <div class="features">
-          <div class="s_t_c">
-            <img src="/medias/short-term-courses.jpeg" alt="short-term-courses-logo" class="stc-logo">
-          </div>
-          <div class="s_t_c1">
-            <p>SHORT TERM COURSES</p>
-            <ul>
+
+          <!-- Short-term -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/short-term-courses.jpeg" alt="Short Term Courses" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Short-Term Courses</h3>
+            <ul class="feature-card__list">
               <li>Digital Marketing</li>
               <li>Project Management</li>
-              <li>Advance Excel</li>
-              <li>Multimedia Technology & Animation</li>
-              <li>Microsoft Office Power User</li>
+              <li>Advanced Excel</li>
+              <li>Multimedia &amp; Animation</li>
+              <li>AutoCAD / Graphics Design</li>
+              <li>Sage 50 / SPSS / MATLAB</li>
             </ul>
           </div>
-          <div class="s_t_c2">
-            <ul>
-            <li>AutoCad</li>
-            <li>Sage 50</li>
-            <li>SPSS</li>
-            <li>Eview</li>
-            <li>Matlab</li>
-            <li>Atlantis</li>
-            <li>Graphics Design</li>
+
+          <!-- Forex -->
+          <div class="feature-card animate-on-scroll">
+            <div class="feature-card__icon">
+              <img src="./medias/forex-icon.jpg" alt="Forex & Crypto" class="feature-card__img">
+            </div>
+            <h3 class="feature-card__title">Forex &amp; Crypto Trading</h3>
+            <ul class="feature-card__list">
+              <li>Forex Trading Fundamentals</li>
+              <li>Cryptocurrency Markets</li>
+              <li>Technical Analysis</li>
             </ul>
           </div>
+
         </div>
-        <div class="features">
-          <div class="forex">
-            <img src="/medias/forex-icon.jpg" alt="forex-icon" class="forex-icon">
-          </div>
-          <p class="p1">FOREX & CRYPTO CURRENCY TRAINING</p>
+      </div>
+    </section>
+
+    <!-- ======== HOW WE OPERATE (VIDEO) ======== -->
+    <section id="how_we_operate" class="section video-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">How It Works</span>
+          <h2 class="section__title">See How We Operate</h2>
+          <p class="section__desc">Watch how Aptech delivers world-class computer education to students across the globe.</p>
         </div>
-        </section>
-        <section id="how_we_operate" class="video">
-          <iframe       
-    src="https://www.youtube.com/embed/GaB6coo6d0s"  
-    title="Aptech Video on how we Operate" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>  
+        <div class="video-section__wrapper animate-on-scroll">
+          <iframe
+            id="video"
+            src="https://www.youtube.com/embed/GaB6coo6d0s"
+            title="Aptech Video — How We Operate"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
           </iframe>
-          <!-- <video id="video" controls class="mp4-video">
-            <source src="/medias/Aptech Computer Education - A World-Class Training in IT.mp4" type="video/mp4">
-          </video> -->
-            <!-- <img src="/medias/aptech3.jpg" title="Aptech Computer Institute" alt="Aptech-logo" class="video-logo"> -->
-          </section>
-          <!-- <a href="https://youtu.be/GaB6coo6d0s?si=PvTOTg8EiYifpEE1" target="_blank" class="video-link">How We Operates</a> -->
-        <section id="pricing" class="pricing">
-          <div class="pbox1">
-            <header class="h1">ADSE</header>
-            <h2>&#8358;4.2M</h2>
-            <p class="p2">Get ADSE Diploma certification and have opportunity to study abroad.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== PRICING ======== -->
+    <section id="pricing" class="section pricing-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Investment</span>
+          <h2 class="section__title">Choose Your Learning Path</h2>
+          <p class="section__desc">Flexible programs designed to fit your career goals and budget.</p>
+        </div>
+        <div class="pricing__grid">
+
+          <!-- ADSE -->
+          <div class="pricing-card animate-on-scroll" id="pricing-adse">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">ADSE</h3>
+              <p class="pricing-card__label">Advanced Diploma</p>
+            </div>
+            <div class="pricing-card__body">
+              <div class="pricing-card__price">
+                <span class="pricing-card__currency">₦</span>
+                <span class="pricing-card__amount">4.2M</span>
+              </div>
+              <p class="pricing-card__desc">Get the ADSE Diploma certification and gain the opportunity to study abroad at top international universities.</p>
+              <ul class="pricing-card__features">
+                <li><i class="fas fa-check"></i> International Certification</li>
+                <li><i class="fas fa-check"></i> Study Abroad Opportunity</li>
+                <li><i class="fas fa-check"></i> Career Placement Support</li>
+                <li><i class="fas fa-check"></i> Full Course Access</li>
+              </ul>
+              <a href="#hero-form" class="pricing-card__btn">Get Started</a>
+            </div>
           </div>
-          <div class="pbox2">
-            <header class="h1">ACNS</header>
-            <h2>&#8358;2.5M</h2>
-            <p class="p2">Get ACNS Diploma certification and have opportunity to study abroad.</p>
+
+          <!-- ACNS (Featured) -->
+          <div class="pricing-card pricing-card--featured animate-on-scroll" id="pricing-acns">
+            <div class="pricing-card__badge">Most Popular</div>
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">ACNS</h3>
+              <p class="pricing-card__label">Networking Specialist</p>
+            </div>
+            <div class="pricing-card__body">
+              <div class="pricing-card__price">
+                <span class="pricing-card__currency">₦</span>
+                <span class="pricing-card__amount">2.5M</span>
+              </div>
+              <p class="pricing-card__desc">Get the ACNS Diploma certification and gain the opportunity to study abroad at top international universities.</p>
+              <ul class="pricing-card__features">
+                <li><i class="fas fa-check"></i> International Certification</li>
+                <li><i class="fas fa-check"></i> Study Abroad Opportunity</li>
+                <li><i class="fas fa-check"></i> Career Placement Support</li>
+                <li><i class="fas fa-check"></i> Networking Lab Access</li>
+                <li><i class="fas fa-check"></i> Industry Mentorship</li>
+              </ul>
+              <a href="#hero-form" class="pricing-card__btn">Get Started</a>
+            </div>
           </div>
-          <div class="pbox3">
-            <header class="h1">SHORT-TERM PROGRAMMES</header>
-            <h2>&#8358;700K</h2>
-            <p class="p2">Get hihgly recognised Diploma certification in any tech field and get an amazing job offers.</p>
+
+          <!-- Short-term -->
+          <div class="pricing-card animate-on-scroll" id="pricing-short">
+            <div class="pricing-card__header">
+              <h3 class="pricing-card__name">Short-Term</h3>
+              <p class="pricing-card__label">Professional Courses</p>
+            </div>
+            <div class="pricing-card__body">
+              <div class="pricing-card__price">
+                <span class="pricing-card__currency">₦</span>
+                <span class="pricing-card__amount">700K</span>
+              </div>
+              <p class="pricing-card__desc">Earn a highly recognized diploma certification in any tech field and unlock amazing job opportunities.</p>
+              <ul class="pricing-card__features">
+                <li><i class="fas fa-check"></i> Professional Certificate</li>
+                <li><i class="fas fa-check"></i> Job-Ready Skills</li>
+                <li><i class="fas fa-check"></i> Flexible Schedule</li>
+              </ul>
+              <a href="#hero-form" class="pricing-card__btn">Get Started</a>
+            </div>
           </div>
-        </section>
-        <section id="partners" class="partners">
-          <img src="/medias/middlesex-uni.jpeg" alt="middlesex-uni-logo" class="middlesex-uni">
-          <img src="/medias/lincoln-logo.png" alt="lincoln-uni-college-logo" class="lincoln">
-          <img src="/medias/ncc.png" alt="ncc-logo" class="ncc">
-          <img src="/medias/university-of-bolton.jpg" alt="university-of-bolton-logo" class="bolton">
-          <img src="/medias/onlinevarsity-logo.jpg" alt="onlinevarsity-logo" class="varsity">
-        </section>
-      </main>
-        <footer class="footer">
-          <div class="address">
-            <address>
-              1 Ekwere Ekwu Street Off <br>
-              Court Road By CPS, Onitsha. <br>
-              08068466178, 08081578909
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== PARTNERS ======== -->
+    <section id="partners" class="section partners-section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Trusted By</span>
+          <h2 class="section__title">Our Global Partners</h2>
+          <p class="section__desc">We collaborate with world-renowned universities and organizations to deliver quality education.</p>
+        </div>
+        <div class="partners__grid animate-on-scroll">
+          <div class="partner-logo">
+            <img src="./medias/middlesex-uni.jpeg" alt="Middlesex University" loading="lazy">
+          </div>
+          <div class="partner-logo">
+            <img src="./medias/lincoln-logo.png" alt="Lincoln University College" loading="lazy">
+          </div>
+          <div class="partner-logo">
+            <img src="./medias/ncc.png" alt="NCC Education" loading="lazy">
+          </div>
+          <div class="partner-logo">
+            <img src="./medias/university-of-bolton.jpg" alt="University of Bolton" loading="lazy">
+          </div>
+          <div class="partner-logo">
+            <img src="./medias/onlinevarsity-logo.jpg" alt="OnlineVarsity" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== FOOTER ======== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__col">
+            <div class="footer__brand">
+              <img src="./medias/aptech3.jpg" alt="Aptech Logo" class="footer__logo">
+              <span class="footer__brand-name">APTECH</span>
+            </div>
+            <address class="footer__address">
+              1 Ekwere Ekwu Street, Off Court Road,<br>
+              By CPS, Onitsha, Anambra State.<br><br>
+              <a href="tel:08068466178"><i class="fas fa-phone"></i> 0806 846 6178</a><br>
+              <a href="tel:08081578909"><i class="fas fa-phone"></i> 0808 157 8909</a>
             </address>
           </div>
-          <div class="lists">
-            <ul class="list">
-              <li class="list1">Privacy</li>
-              <li>Terms</li>
-              <li>Contact</li>
+          <div class="footer__col">
+            <h4 class="footer__heading">Quick Links</h4>
+            <ul class="footer__links">
+              <li><a href="#features">Programs</a></li>
+              <li><a href="#how_we_operate">How It Works</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#partners">Partners</a></li>
             </ul>
-            <p class="pfooter">Copywrite &copy;2023, Aptech Institute Onitsha</p>
           </div>
-        </footer>
+          <div class="footer__col">
+            <h4 class="footer__heading">Legal</h4>
+            <ul class="footer__links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__heading">Connect With Us</h4>
+            <div class="footer__socials">
+              <a href="#" class="footer__social" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="footer__social" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" class="footer__social" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="footer__social" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>Copyright &copy; 2026 Aptech Institute Onitsha. All rights reserved.</p>
+        </div>
       </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
