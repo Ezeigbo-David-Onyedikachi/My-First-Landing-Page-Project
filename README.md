@@ -4,7 +4,7 @@ A professional, high-performance landing page built to showcase educational path
 This version includes custom JavaScript to enhance user experience and interactivity.
 
 ## Live Demo
-https://ezeigbo-david-onyedikachi.github.io/My-First-Landing-Page-Project/
+[View Aptech Learning Center Live](https://ezeigbo-david-onyedikachi.github.io/My-First-Landing-Page-Project/)
 
 ## Project Overview
 This project serves as a functional prototype for an educational platform. It demonstrates 
